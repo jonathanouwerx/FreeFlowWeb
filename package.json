@@ -58,6 +58,11 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
+    "@json-rpc-tools/utils": "^1.7.6",
+    "@walletconnect/client": "^1.8.0",
+    "@walletconnect/qrcode-modal": "^1.8.0",
+    "algorand-walletconnect-qrcode-modal": "^1.8.0",
+    "algosdk": "^1.21.0",
     "core-js": "^3.16.1",
     "d3": "^7.0.0"
   }
