@@ -4,6 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>webpack starterkit</title>
+  <script
+  src="https://cdn.jsdelivr.net/npm/algosdk@v1.21.0/dist/browser/algosdk.min.js"
+  integrity="sha384-MBUb3pc2VI86j87sLfTwm1kEs2PUDCOFXnXdgspn0lWSJOxr1gu4mZL6L7VE1ITH"
+  crossorigin="anonymous"
+  ></script>
+  <script type="text/javascript" src="ttps://cdn.jsdelivr.net/npm/walletconnect@1.7.8/dist/umd/index.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algorand-walletconnect-qrcode-modal@1.8.0/dist/cjs/index.min.js"></script>
 </head>
 <body>
   <h1>webpack starter</h1>
@@ -12,7 +19,7 @@
   <!-- <SConnectButton left onClick={this.walletConnectInit} fetching={fetching}> -->
 
   <button onclick="walletConnectInit()">Connect to WalletConnect!</button>
-  <script type="module" src="./wc_connect.js"></script>
+  <script type="module" src="./scripts/wc_connect.js"></script>
 
 </body>
 </html>
